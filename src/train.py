@@ -13,8 +13,10 @@ def train_linear_model(data_path):
 
     model = LinearRegression()
     model.fit(X_train, y_train)
+    
 
     y_pred = model.predict(X_test)
+    print(y_pred)
     return y_pred, y_test
 
 
