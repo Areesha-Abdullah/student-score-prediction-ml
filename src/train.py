@@ -1,5 +1,6 @@
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
+from src.linearregression_from_scratch import LinearRegressionScratch
 from sklearn.preprocessing import PolynomialFeatures
 
 from src.preprocessing import load_and_preprocess_data
@@ -12,11 +13,12 @@ def train_linear_model(data_path):
     )
 
     model = LinearRegression()
+    # model = LinearRegressionScratch()
     model.fit(X_train, y_train)
     
 
     y_pred = model.predict(X_test)
-    print(y_pred)
+    # print(y_pred)
     return y_pred, y_test
 
 
