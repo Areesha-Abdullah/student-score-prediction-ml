@@ -38,7 +38,7 @@ The dataset includes numerical and categorical features such as:
 - **Polynomial Regression (degree = 2)**
 
 ### Algorithm Implementation
-In addition to using scikit-learn’s `LinearRegression`, the linear regression algorithm was also implemented **from scratch using NumPy** to understand the underlying mathematics.
+In addition to using scikit-learn’s `LinearRegression`, the linear regression algorithm was also implemented **Linear Regression from scratch using NumPy** to understand the underlying mathematics.
 
 - The custom implementation was evaluated using the same train/test split  
 - Evaluation metrics closely matched scikit-learn’s implementation  
