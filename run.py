@@ -13,3 +13,5 @@ plot_predictions(y_test, y_pred, model_name="Linear Regression")
 y_test_poly, y_pred_poly = train_polynomial_model(DATA_PATH, degree=2)
 evaluate_model(y_test_poly, y_pred_poly, model_name="Polynomial Regression")        
 plot_predictions(y_test_poly, y_pred_poly, model_name="Polynomial Regression")  
+
+
